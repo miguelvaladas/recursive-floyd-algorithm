@@ -1,0 +1,80 @@
+[2023-09-17 13:22:58.611906] - Testing light test graph:
+
+[2023-09-17 13:22:59.069241] - Recursive memory usage (current, peak): (213028, 239159)
+[2023-09-17 13:22:59.069309] - Recursive running time over 10000 runs: 0.45572037498641293
+[2023-09-17 13:22:59.069684] - CPU usage percentage after recursion task: 12.8
+[2023-09-17 13:22:59.432719] - Iterative memory usage (current, peak): (0, 26627)
+[2023-09-17 13:22:59.432770] - Iterative running time over 10000 runs: 0.3624325620039599
+[2023-09-17 13:22:59.433097] - CPU usage percentage after iterative task: 11.9
+[2023-09-17 13:23:01.312115] - Recursive memory usage (current, peak): (0, 26619)
+[2023-09-17 13:23:01.312142] - Recursive running time over 50000 runs: 1.8785511530004442
+[2023-09-17 13:23:01.312287] - CPU usage percentage after recursion task: 12.3
+[2023-09-17 13:23:03.108193] - Iterative memory usage (current, peak): (0, 26611)
+[2023-09-17 13:23:03.108219] - Iterative running time over 50000 runs: 1.7955697650031652
+[2023-09-17 13:23:03.108367] - CPU usage percentage after iterative task: 12.1
+[2023-09-17 13:23:12.521711] - Recursive memory usage (current, peak): (0, 26603)
+[2023-09-17 13:23:12.521738] - Recursive running time over 250000 runs: 9.41301408300933
+[2023-09-17 13:23:12.521896] - CPU usage percentage after recursion task: 11.8
+[2023-09-17 13:23:21.664106] - Iterative memory usage (current, peak): (0, 26595)
+[2023-09-17 13:23:21.664163] - Iterative running time over 250000 runs: 9.141754219002905
+[2023-09-17 13:23:21.664458] - CPU usage percentage after iterative task: 11.9
+[2023-09-17 13:23:21.664738] - Testing heavy test graph:
+
+[2023-09-17 13:23:40.771498] - Recursive memory usage (current, peak): (0, 26587)
+[2023-09-17 13:23:40.771523] - Recursive running time over 10000 runs: 19.106362015008926
+[2023-09-17 13:23:40.771653] - CPU usage percentage after recursion task: 13.8
+[2023-09-17 13:23:44.493673] - Iterative memory usage (current, peak): (0, 26571)
+[2023-09-17 13:23:44.493703] - Iterative running time over 10000 runs: 3.721654869004851
+[2023-09-17 13:23:44.493927] - CPU usage percentage after iterative task: 10.9
+[2023-09-17 13:25:19.768481] - Recursive memory usage (current, peak): (0, 26563)
+[2023-09-17 13:25:19.768504] - Recursive running time over 50000 runs: 95.27418215799844
+[2023-09-17 13:25:19.768629] - CPU usage percentage after recursion task: 12.1
+[2023-09-17 13:25:38.296721] - Iterative memory usage (current, peak): (0, 26555)
+[2023-09-17 13:25:38.296748] - Iterative running time over 50000 runs: 18.52775560801092
+[2023-09-17 13:25:38.296899] - CPU usage percentage after iterative task: 10.5
+[2023-09-17 13:33:18.676225] - Recursive memory usage (current, peak): (0, 26547)
+[2023-09-17 13:33:18.676247] - Recursive running time over 250000 runs: 460.3789639369934
+[2023-09-17 13:33:18.676373] - CPU usage percentage after recursion task: 9.2
+[2023-09-17 13:34:46.076495] - Iterative memory usage (current, peak): (0, 26539)
+[2023-09-17 13:34:46.076521] - Iterative running time over 250000 runs: 87.39979132000008
+[2023-09-17 13:34:46.076664] - CPU usage percentage after iterative task: 7.5
+[2023-09-17 17:45:32.980969] - Testing light test graph:
+
+[2023-09-17 17:45:33.401470] - Recursive memory usage (current, peak): (213028, 239159)
+[2023-09-17 17:45:33.401496] - Recursive running time over 10000 runs: 0.4191774149949197
+[2023-09-17 17:45:33.401644] - CPU usage percentage after recursion task: 8.8
+[2023-09-17 17:45:33.738309] - Iterative memory usage (current, peak): (0, 26627)
+[2023-09-17 17:45:33.738333] - Iterative running time over 10000 runs: 0.3362735520058777
+[2023-09-17 17:45:33.738473] - CPU usage percentage after iterative task: 8.0
+[2023-09-17 17:45:35.479535] - Recursive memory usage (current, peak): (0, 26619)
+[2023-09-17 17:45:35.479556] - Recursive running time over 50000 runs: 1.7407301539933542
+[2023-09-17 17:45:35.479682] - CPU usage percentage after recursion task: 8.4
+[2023-09-17 17:45:37.157344] - Iterative memory usage (current, peak): (0, 26611)
+[2023-09-17 17:45:37.157364] - Iterative running time over 50000 runs: 1.67735959100537
+[2023-09-17 17:45:37.157493] - CPU usage percentage after iterative task: 7.2
+[2023-09-17 17:45:45.897971] - Recursive memory usage (current, peak): (0, 26603)
+[2023-09-17 17:45:45.897993] - Recursive running time over 250000 runs: 8.740175185012049
+[2023-09-17 17:45:45.898117] - CPU usage percentage after recursion task: 7.7
+[2023-09-17 17:45:54.381637] - Iterative memory usage (current, peak): (0, 26595)
+[2023-09-17 17:45:54.381670] - Iterative running time over 250000 runs: 8.483174303008127
+[2023-09-17 17:45:54.381888] - CPU usage percentage after iterative task: 9.1
+[2023-09-17 17:45:54.382124] - Testing heavy test graph:
+
+[2023-09-17 17:46:11.639486] - Recursive memory usage (current, peak): (0, 26587)
+[2023-09-17 17:46:11.639511] - Recursive running time over 10000 runs: 17.25702201599779
+[2023-09-17 17:46:11.639642] - CPU usage percentage after recursion task: 7.3
+[2023-09-17 17:46:14.982912] - Iterative memory usage (current, peak): (0, 26571)
+[2023-09-17 17:46:14.982937] - Iterative running time over 10000 runs: 3.342941412993241
+[2023-09-17 17:46:14.983090] - CPU usage percentage after iterative task: 7.2
+[2023-09-17 17:47:41.406412] - Recursive memory usage (current, peak): (0, 26563)
+[2023-09-17 17:47:41.406435] - Recursive running time over 50000 runs: 86.42299864300003
+[2023-09-17 17:47:41.406562] - CPU usage percentage after recursion task: 7.4
+[2023-09-17 17:47:58.425532] - Iterative memory usage (current, peak): (0, 26555)
+[2023-09-17 17:47:58.425556] - Iterative running time over 50000 runs: 17.018625570010045
+[2023-09-17 17:47:58.425709] - CPU usage percentage after iterative task: 8.1
+[2023-09-17 17:55:14.403029] - Recursive memory usage (current, peak): (0, 26547)
+[2023-09-17 17:55:14.403053] - Recursive running time over 250000 runs: 435.9769776299945
+[2023-09-17 17:55:14.403178] - CPU usage percentage after recursion task: 7.2
+[2023-09-17 17:56:36.122991] - Iterative memory usage (current, peak): (0, 26539)
+[2023-09-17 17:56:36.123018] - Iterative running time over 250000 runs: 81.71949663599662
+[2023-09-17 17:56:36.123166] - CPU usage percentage after iterative task: 6.9

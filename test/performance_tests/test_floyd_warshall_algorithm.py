@@ -31,14 +31,17 @@ HEAVY_TEST_GRAPH = [
 def _execute_performance_tests(graph: List[List[int]]):
     number_of_runs = 10_000
 
-    with open('../../../recursive-floyd-algorithm/docs/performance_test_results.txt', 'w') as file:
+    with open('../../../recursive-floyd-algorithm/docs/performance_test_results.txt', 'a') as file:
         tracemalloc.start()
         for i in range(3):
-            tracemalloc.clear_traces()
 
             if i == 0:
-                test_graph_type = "light" if graph == LIGHT_TEST_GRAPH else "heavy"
+                print(graph)
+                print(LIGHT_TEST_GRAPH)
+                test_graph_type = "light" if graph is LIGHT_TEST_GRAPH else "heavy"
                 write_to_file(file, f"Testing {test_graph_type} test graph:\n")
+
+            tracemalloc.clear_traces()
 
             recursive_time = timeit.timeit(lambda: FloydWarshallAlgorithm.execute(graph, use_recursion=True),
                                            number=number_of_runs)

@@ -90,6 +90,20 @@ class Test(unittest.TestCase):
         [NO_PATH, NO_PATH, NO_PATH, NO_PATH, 39, NO_PATH, 90, NO_PATH, NO_PATH, 0]
     ]
 
+    FIFTH_GRAPH = [
+        [0, -1, NO_PATH, -2],
+        [NO_PATH, 0, 6, NO_PATH],
+        [NO_PATH, NO_PATH, 0, NO_PATH],
+        [NO_PATH, -3, 7, 0]
+    ]
+
+    FIFTH_GRAPH_EXPECTED_RESULT = [
+        [0, -5, 1, -2],
+        [NO_PATH, 0, 6, NO_PATH],
+        [NO_PATH, NO_PATH, 0, NO_PATH],
+        [NO_PATH, -3, 3, 0]
+    ]
+
     def test_execute_throws_InvalidArgumentTypeError(self):
         graph = "abc"
 
@@ -147,13 +161,25 @@ class Test(unittest.TestCase):
 
         self.assertEqual(self.THIRD_GRAPH_EXPECTED_RESULT, result)
 
-    def test_recursive_raises_RecursionError_on_12_vertices_matrix(self):
-        self.assertRaises(RecursionError, lambda: FloydWarshallAlgorithm.execute(self.FOURTH_GRAPH, use_recursion=True))
+    def test_recursive_returns_expected_result_on_12_vertices_matrix(self):
+        result = FloydWarshallAlgorithm.execute(self.FOURTH_GRAPH, use_recursion=True)
+
+        self.assertEqual(self.FOURTH_GRAPH_EXPECTED_RESULT, result)
 
     def test_iterative_returns_expected_result_on_12_vertices_matrix(self):
         result = FloydWarshallAlgorithm.execute(self.FOURTH_GRAPH)
 
         self.assertEqual(self.FOURTH_GRAPH_EXPECTED_RESULT, result)
+
+    def test_iterative_returns_expected_result_on_negative_numbers_graph(self):
+        result = FloydWarshallAlgorithm.execute(self.FIFTH_GRAPH)
+
+        self.assertEqual(self.FIFTH_GRAPH_EXPECTED_RESULT, result)
+
+    def test_recursive_returns_expected_result_on_negative_numbers_graph(self):
+        result = FloydWarshallAlgorithm.execute(self.FIFTH_GRAPH, use_recursion=True)
+
+        self.assertEqual(self.FIFTH_GRAPH_EXPECTED_RESULT, result)
 
 
 if __name__ == '__main__':
