@@ -23,6 +23,7 @@ class Test(unittest.TestCase):
         [NO_PATH, NO_PATH, 0, 1],
         [NO_PATH, NO_PATH, NO_PATH, 0]
     ]
+
     FIRST_GRAPH_EXPECTED_RESULT = [
         [0, 5, 8, 9],
         [NO_PATH, 0, 3, 4],
@@ -161,12 +162,12 @@ class Test(unittest.TestCase):
 
         self.assertEqual(self.THIRD_GRAPH_EXPECTED_RESULT, result)
 
-    def test_recursive_returns_expected_result_on_12_vertices_matrix(self):
+    def test_recursive_returns_expected_result_on_10_vertices_matrix(self):
         result = FloydWarshallAlgorithm.execute(self.FOURTH_GRAPH, use_recursion=True)
 
         self.assertEqual(self.FOURTH_GRAPH_EXPECTED_RESULT, result)
 
-    def test_iterative_returns_expected_result_on_12_vertices_matrix(self):
+    def test_iterative_returns_expected_result_on_10_vertices_matrix(self):
         result = FloydWarshallAlgorithm.execute(self.FOURTH_GRAPH)
 
         self.assertEqual(self.FOURTH_GRAPH_EXPECTED_RESULT, result)
